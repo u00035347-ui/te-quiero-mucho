@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una sorpresa para ti ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="avatar">💌</div>
+        <h1>Hey, mi vida...</h1>
+        <p class="subtitle">Hice este rinconcito web especialmente para ti</p>
+
+        <button class="letter-btn" onclick="toggleLetter()">Toca aquí para tu sorpresa ✨</button>
+
+        <div class="message-box" id="letter">
+            <p class="message-text">
+                Sé que hoy no está siendo tu mejor día, pero quería recordarte lo increíble, fuerte y hermosa que eres. 💖
+                <br><br>
+                No importa qué pase, siempre estaré aquí para sacarte una sonrisa y apoyarte. Sonríe un poquito, ¿sí?
+            </p>
+
+            <button class="hug-btn" onclick="sendHug(event)">🤗 Enviar un abrazo virtual</button>
+            <div class="counter" id="hugCounter">Abrazos enviados hoy: 0</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
